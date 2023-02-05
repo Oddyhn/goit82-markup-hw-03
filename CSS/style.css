@@ -1,0 +1,272 @@
+/* General */
+
+:root {
+	--bglatter-color: #2e2f42;
+	--smlatter-color: #434455;
+	--active-color: #404bbf;
+
+	--ltdecor-color: #e7e9fc;
+	--decor-color: #4d5ae5;
+	--lightfon-color: #f4f4fd;
+	--background-color: #e5e5e5;
+}
+
+body {
+	font-family: "Roboto", sans-serif;
+	font-style: normal;
+	font-size: 16px;
+
+	color: var(--smlatter-color);
+
+	background-color: var(--background-color);
+}
+
+.list-marker {
+	list-style: none;
+}
+
+.link-line {
+	text-decoration: none;
+}
+
+/* Header */
+
+.header-style,
+.principles,
+.product,
+.projects {
+	background-color: #ffffff;
+}
+
+.logo-style {
+	font-family: "Raleway", sans-serif;
+	font-weight: 800;
+	font-size: 18px;
+	line-height: 1.33;
+
+	letter-spacing: 0.03em;
+
+	color: var(--bglatter-color);
+}
+
+.logo-style > span {
+	color: var(--decor-color);
+}
+
+/* Header */
+/* Navigation */
+
+.menu-link {
+	font-weight: 500;
+	line-height: 1.5;
+
+	letter-spacing: 0.02em;
+
+	color: var(--bglatter-color);
+}
+
+.current {
+	color: var(--active-color);
+}
+
+/* Header */
+/* Contacts */
+
+.contact-link {
+	font-weight: 400;
+	line-height: 1.5;
+
+	letter-spacing: 0.02em;
+
+	color: var(--smlatter-color);
+}
+
+.header-style .logo-style:hover,
+.menu-link:hover,
+.contact-link:hover,
+.header-style .logo-style:focus,
+.menu-link:focus,
+.contact-link:focus {
+	color: var(--active-color);
+}
+
+/* Footer */
+/* Address */
+
+.footer-style {
+	background-color: var(--bglatter-color);
+}
+
+.footer-style .logo-style {
+	color: var(--lightfon-color);
+	line-height: 1.17;
+}
+
+.footer-style > p {
+	font-weight: 400;
+	line-height: 1.5;
+
+	letter-spacing: 0.02em;
+
+	color: var(--ltdecor-color);
+}
+
+.footer-style .logo-style:hover,
+.footer-style .logo-style:focus {
+	color: var(--active-color);
+}
+
+/* Studio */
+/* Hero */
+
+.hero {
+	background-color: var(--bglatter-color);
+}
+
+.hero-title {
+	font-weight: 700;
+	font-size: 56px;
+	line-height: 1.07;
+
+	text-align: center;
+	letter-spacing: 0.2em;
+
+	color: #ffffff;
+}
+
+.order-btn {
+	font-weight: 500;
+	font-size: 16px;
+	line-height: 1.5;
+
+	display: flex;
+	align-items: center;
+	letter-spacing: 0.04em;
+
+	color: #ffffff;
+
+	cursor: pointer;
+
+	width: 169px;
+	height: 56px;
+	left: 636px;
+	top: 428px;
+
+	background-color: var(--decor-color);
+	box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
+	border-radius: 4px;
+}
+
+.order-btn:hover,
+.order-btn:focus {
+	background-color: var(--active-color);
+}
+
+/* Studio */
+/* Principles */
+
+.principles-head,
+.employer-head,
+.project-title {
+	font-weight: 500;
+	font-size: 20px;
+	line-height: 1.2;
+
+	letter-spacing: 0.02em;
+
+	color: var(--bglatter-color);
+}
+
+.principles-text,
+.employer-text,
+.project-name {
+	line-height: 1.5;
+}
+
+/* Studio */
+/* Product */
+
+.section-title {
+	font-weight: 700;
+	font-size: 36px;
+	line-height: 1.11;
+
+	text-align: center;
+	letter-spacing: 0.02em;
+	text-transform: capitalize;
+
+	color: var(--bglatter-color);
+}
+
+.product-image {
+	background: linear-gradient (0deg, rgba(77, 90, 229, 0.1), rgba(77, 90, 229, 0.1));
+	background-blend-mode: soft-light, normal;
+
+	border: 1px solid #e7e9fc;
+}
+
+/* Studio */
+/* Employer */
+
+.employer {
+	background-color: var(--lightfon-color);
+}
+
+.employer-item {
+	background: #ffffff;
+	box-shadow: 0px 0px 1px 6px rgba(46, 47, 66, 0.08), 0px 1px 1px rgba(46, 47, 66, 0.16),
+		0px 2px 1px rgba(46, 47, 66, 0.08);
+	border-radius: 0px 4px 4px;
+	text-align: center;
+}
+
+/* Portfolio */
+/* Filter */
+
+.filter-btn {
+	font-weight: 500;
+	font-size: 16px;
+	line-height: 1.5;
+
+	align-items: center;
+	text-align: center;
+	letter-spacing: 0.04em;
+
+	color: var(--decor-color);
+
+	display: flex;
+	flex-direction: row;
+	justify-content: center;
+	align-items: center;
+	padding: 12px 24px;
+
+	width: 116px;
+	height: 48px;
+
+	background: var(--lightfon-color);
+	border: 1px solid var(--ltdecor-color);
+	border-radius: 4px;
+}
+
+.filter-btn:hover,
+.filter-btn:focus {
+	color: #ffffff;
+
+	background: var(--active-color);
+	box-shadow: 0px 3px 1px rgba(0, 0, 0, 0.1), 0px 2px 1px rgba(0, 0, 0, 0.08), 0px 2px 2px rgba(0, 0, 0, 0.12);
+	border-radius: 4px;
+}
+
+.filter-btn:visited {
+	background-color: var(--bglatter-color);
+}
+
+/* Portfolio */
+/* Project */
+
+.project-item {
+	background: #ffffff;
+	border: 1px solid var(--ltdecor-color);
+
+	text-align: center;
+}
